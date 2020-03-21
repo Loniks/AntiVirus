@@ -44,3 +44,6 @@ def start_scanning():
                         os.path.join(quarantine, name))
                     else:
                         print("Unknown command")
+                        
+if __name__ == "__main__":
+    start_scanning()
